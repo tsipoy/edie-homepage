@@ -9,25 +9,31 @@
 </head>
 
 <body>
+    <input type="checkbox" id="homepage" class="menu_homepage">
     <header class="edie_homepage_header">
         <h1 class="edie_homepage_header__title">Edie</h1>
         <nav class="edie_homepage_header__navigation">
             <ul class="edie_homepage_header__list_wrapper">
-                <li class="edie_homepage_header__list"> <a href="/">Home</a></li>
-                <li class="edie_homepage_header__list"> <a href="/">Services</a></li>
-                <li class="edie_homepage_header__list"> <a href="/">Our works</a></li>
-                <li class="edie_homepage_header__list"> <a href="/">Clients</a></li>
-                <li class="edie_homepage_header__list"> <a href="/">Contact</a></li>
+                <li class="edie_homepage_header__list"><a href="/" class="edie_homepage_header__anchor">Home</a></li>
+                <li class="edie_homepage_header__list"><a href="/" class="edie_homepage_header__anchor">Services</a></li>
+                <li class="edie_homepage_header__list"><a href="/" class="edie_homepage_header__anchor">Our works</a></li>
+                <li class="edie_homepage_header__list"><a href="/" class="edie_homepage_header__anchor">Clients</a></li>
+                <li class="edie_homepage_header__list"><a href="/" class="edie_homepage_header__anchor">Contact</a></li>
             </ul>
         </nav>
-        <img src="./assets/menu-icon.svg" alt>
+        <div class="edie_homepage_header__menu">
+            <img src="./assets/menu-icon.svg" class="edie_homepage_header__menu_icon" alt>
+            <label for="homepage" class="edie_homepage_header__menu_icon__label">
+                <span class="edie_homepage_header__menu_icon__span">Menu</span>
+            </label>
+        </div>
     </header>
     <main class="edie_homepage__articles">
         <section class="edie_homepage__articles__create_website">
             <header class="edie_homepage__articles__create_website">
-                <h2 class="edie_homepage__articles__create_website__title">We create beautiful and fast web services
-                </h2>
-                <h3 class="edie_homepage__articles__create_website__question">Unhappy with your website?</h3>
+                <h2 class="edie_homepage__articles__create_website__question">Unhappy with your website?</h2>
+                <h3 class="edie_homepage__articles__create_website__title">We create beautiful and fast web services
+                </h3>
             </header>
             <article class="edie_homepage__articles__create_website__help">
                 <figure class="edie_homepage__articles__create_website__help__image">
@@ -40,6 +46,7 @@
                     competition and help you achieve your strategic goals in short period of time.</p>
                 <form action="/" class="edie_homepage__articles__create_website__help__form">
                     <label for="email" class="edie_homepage__articles__create_website__help__label">
+                        Want us to contact you?
                         <input type="text" id="email" class="edie_homepage__articles__create_website__help__email_input"
                             placeholder="Email">
                     </label>
@@ -137,8 +144,8 @@
         </section>
         <section class="edie_homepage__articles__team">
             <header class="edie_homepage__articles__team__header">
-                <h2 class="edie_homepage__articles__team__title">We are chilled and a laidback team</h2>
-                <h3 class="edie_homepage__articles__team__subtitle">Meet the team</h3>
+                <h3 class="edie_homepage__articles__team__title">We are chilled and a laidback team</h3>
+                <h2 class="edie_homepage__articles__team__subtitle">Meet the team</h2>
             </header>
             <p class="edie_homepage__articles__team__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <ul class="edie_homepage__articles__team__lists_wrapper">

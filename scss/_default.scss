@@ -1,5 +1,27 @@
 body {
     margin: 0;
+    padding-inline-end: 17px;
+    padding-inline-start: 10px;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333333;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 36px;
 }
 
 li { 
@@ -8,4 +30,14 @@ li {
 
 a {
     text-decoration: none;
+}
+
+figure {
+    margin-inline-end: -43px;
+    margin-inline-start: -43px;
+}
+
+blockquote {
+    font-size: 24px;
+    line-height: 36px;
 }
