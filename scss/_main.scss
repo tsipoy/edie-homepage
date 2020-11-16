@@ -1,7 +1,7 @@
-// section {
-//     margin: auto;
-//     max-width: 272px;
-// }
+section {
+    margin: auto;
+    max-width: 272px;
+}
 
 figure {
     margin-inline-end: -31px;
@@ -14,7 +14,9 @@ blockquote {
 }
 
 @media(min-width: 900px) {
-    section {
-        max-width: 700px;
-    }
+    // section {
+    //     max-width: 700px;
+    // }
+
+
 }

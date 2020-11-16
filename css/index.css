@@ -111,6 +111,10 @@ body > [type="checkbox"]:checked ~ main {
   .edie_homepage_header__menu {
     display: none; } }
 
+section {
+  margin: auto;
+  max-width: 272px; }
+
 figure {
   margin-inline-end: -31px;
   margin-inline-start: -34px; }
@@ -118,10 +122,6 @@ figure {
 blockquote {
   font-size: 24px;
   line-height: 36px; }
-
-@media (min-width: 900px) {
-  section {
-    max-width: 700px; } }
 
 .edie_homepage__articles__create_website {
   margin: auto;
@@ -186,3 +186,46 @@ blockquote {
   padding-inline-end: 20px;
   padding-inline-start: 21px;
   margin-inline-start: -70px; }
+
+.edie_homepage__articles__services__header_heading {
+  max-width: 346px; }
+
+.edie_homepage__articles__services__branches {
+  margin-block-end: 108px; }
+
+.edie_homepage__articles__services__branches:hover {
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 24px;
+  padding-block-end: 52px;
+  padding-inline-start: 34px;
+  padding-inline-end: 34px;
+  margin-inline-start: -28px;
+  margin-inline-end: -30px;
+  transition: all .2s ease-out; }
+
+.edie_homepage__articles__services__branches__description {
+  padding-block-end: 39px;
+  padding-block-start: 29px; }
+
+.edie_homepage__articles__services__branches:hover .edie_homepage__articles__services__branches__get_started_link {
+  background-color: #2D9CDB;
+  color: #FFFFFF; }
+
+.edie_homepage__articles__services__branches__get_started_link {
+  background-color: #E0E0E0;
+  border-radius: 12px;
+  padding-block-end: 9px;
+  padding-block-start: 9px;
+  padding-inline-end: 13px;
+  padding-inline-start: 12px; }
+
+@media (min-width: 900px) {
+  .edie_homepage__articles__services__branches_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px; }
+  .edie_homepage__articles__services {
+    padding-block-start: 102px;
+    padding-block-end: 155px;
+    max-width: 1000px; } }
