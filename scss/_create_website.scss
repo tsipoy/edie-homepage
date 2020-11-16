@@ -10,6 +10,11 @@
     margin-block-end: -18px;
 }
 
+.edie_homepage__articles__create_website__help__photo {
+    width: 100%;
+    height: 145px;
+}
+
 .edie_homepage__articles__create_website__title {
     font-weight: 500;
     font-size: 24px;
@@ -35,17 +40,22 @@
     color: #828282;
 }
 
-.edie_homepage__articles__create_website__help__email_input {
-    font-size: 20px;
-    line-height: 21px;
-    color: #BDBDBD;
+.edie_homepage__articles__create_website__help__form {
     background-color: #F2F2F2;
     border-radius: 12px;
     padding-inline-start: 19px;
-    padding-block-start: 10px;
-    padding-block-end: 14px;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.edie_homepage__articles__create_website__help__email_input {
+    background-color: #F2F2F2;
+    font-size: 20px;
+    line-height: 21px;
+    color: #BDBDBD;
     border: none;
-    position: relative;
 }
 
 .edie_homepage__articles__create_website__help__join_button {
@@ -59,6 +69,5 @@
     padding-block-end: 13px;
     padding-inline-end: 20px;
     padding-inline-start: 21px;
-    position: absolute;
-    right: 15%;
+    margin-inline-start: -70px;
 }

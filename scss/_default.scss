@@ -8,6 +8,7 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+
 h1, h2, h3 {
     color: #333333;
 }
@@ -32,12 +33,9 @@ a {
     text-decoration: none;
 }
 
-figure {
-    margin-inline-end: -43px;
-    margin-inline-start: -43px;
-}
-
-blockquote {
-    font-size: 24px;
-    line-height: 36px;
+@media(min-width: 900px) {
+    body {
+        padding-inline-end: 56px;
+        padding-inline-start: 52px;
+    }
 }

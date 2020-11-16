@@ -9,6 +9,12 @@
     display: none;
 }
 
+.edie_homepage_header__anchor {
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
 .edie_homepage_header__menu {
     position: relative;
 }
@@ -66,7 +72,7 @@ body > [type="checkbox"]:checked ~ main {
     text-decoration: underline;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 900px) {
     .edie_homepage_header__navigation {
         position: inherit;
         z-index: auto;
@@ -88,6 +94,7 @@ body > [type="checkbox"]:checked ~ main {
     .edie_homepage_header__list {
         padding-inline-end: 32px;
     }
+
     .edie_homepage_header__menu {
         display: none;
     }
