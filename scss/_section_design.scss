@@ -1,0 +1,53 @@
+.edie_homepage__articles__good_design__list__image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.edie_homepage__articles__good_design__list_job {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.edie_homepage__articles__good_design__list_product {
+    font-size: 18px;
+    line-height: 27px;
+    padding-block-end: 16px;
+}
+
+.edie_homepage__articles__good_design__link_see_more {
+    font-size: 18px;
+    color: #2D9CDB;
+
+}
+
+@media(min-width: 900px) {
+    .edie_homepage__articles__good_design {
+        max-width: 1000px;
+        position: relative;
+    }
+
+    .edie_homepage__articles__good_design__navigation {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 31px;
+        grid-row-gap: 105px;
+    }
+
+    .edie_homepage__articles__good_design__lists_wrapper:nth-of-type(2n) {
+        margin-block-start: calc(-100% / 3);
+    }
+
+    .edie_homepage__articles__good_design__heading {
+        padding-block-end: 188px;
+        max-width: 448px;
+    }
+
+    .edie_homepage__articles__good_design__link {
+        position: absolute;
+        right: 0;
+        bottom: 23px;
+    }
+}
