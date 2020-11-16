@@ -1,0 +1,36 @@
+.edie_homepage__articles_quote {
+    max-width: 1000px;
+}
+
+.edie_homepage__articles__quote__blockquote {
+    max-width: 937px;
+}
+
+.edie_homepage__articles_quote__owner {
+    display: flex;
+    flex-direction: row;
+}
+
+.edie_homepage__articles__quote__owner__about_name {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.edie_homepage__articles__quote__owner__about_job {
+    font-size: 18px;
+    line-height: 27px;
+    color: #828282;
+}
+
+.edie_homepage__articles__quote__owner__photo {
+    max-width: 131px;
+    border-radius: 20px;
+}
+
+.edie_homepage__articles__quote__owner__about {
+    padding-inline-start: 16px;
+}
+
+.edie_homepage__articles__quote__owner__about:last-child {
+    padding-block-start: 12px;
+}
