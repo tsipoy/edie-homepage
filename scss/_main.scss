@@ -1,22 +1,33 @@
-section {
-    margin: auto;
-    max-width: 272px;
-}
 
-figure {
-    margin-inline-end: -31px;
-    margin-inline-start: -34px;
-}
+
+// figure {
+//     margin-inline-end: -31px;
+//     margin-inline-start: -34px;
+// }
 
 blockquote {
     font-size: 24px;
     line-height: 36px;
 }
 
+.edie_homepage__articles__services,
+.edie_homepage__articles__good_design,
+.edie_homepage__articles__team,
+.edie_homepage__articles_quote,
+.edie_homepage__articles__create_website__help__wrapper
+ {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+.edie_homepage__articles__create_website > .edie_homepage__articles__create_website {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
 @media(min-width: 900px) {
-    // section {
-    //     max-width: 700px;
-    // }
-
-
+    main {
+        margin: auto;
+        max-width: 1000px;
+    }
 }

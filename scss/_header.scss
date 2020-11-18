@@ -5,6 +5,11 @@
     justify-content: space-between;
 }
 
+.edie_homepage_header__list_wrapper {
+    margin: auto;
+    max-width: 120px;
+}
+
 .menu_homepage {
     display: none;
 }
@@ -87,12 +92,17 @@ body > [type="checkbox"]:checked ~ main {
     }
 
     .edie_homepage_header__list_wrapper {
+        margin: 0;
+        max-width: none;
+    }
+
+    .edie_homepage_header__list_wrapper {
         display: flex;
         flex-direction: row;
     }
 
     .edie_homepage_header__list {
-        padding-inline-end: 32px;
+        padding-inline-start: 32px;
     }
 
     .edie_homepage_header__menu {
